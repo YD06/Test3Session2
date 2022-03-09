@@ -18,7 +18,7 @@ int input()
 int isprime(int n)
 {
   if (n==0 || n==1) {
-    return 0
+    return 0;
   }
   if (n==2) {
     return 1;
@@ -35,7 +35,7 @@ void output(int n, int isp)
   if(isp == 0)
     printf("%d is not a prime number\n",n);
   else
-    printf("%d is a prime number\n",n)
+    printf("%d is a prime number\n",n);
 }
 
 int main()
@@ -45,4 +45,3 @@ int main()
   output(n,isp);
   return 0;
   }
-}
