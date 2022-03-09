@@ -1,1 +1,6 @@
+gcc -g p4final.c
+ ./a.out
+Enter the number
+1
+the 1th fibonacci number is 0
 
